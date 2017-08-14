@@ -1,0 +1,32 @@
+{
+  "kayla-core": {
+    "git": "git@github.com:kayla-tech/kayla-packages.git",
+    "branch": "develop",
+    "path": "kayla-core"
+  },
+  "kayla-data": {
+    "git": "git@github.com:kayla-tech/kayla-packages.git",
+    "branch": "develop",
+    "path": "kayla-data"
+  },
+  "kayla-pdfer": {
+    "git": "git@github.com:kayla-tech/kayla-packages.git",
+    "branch": "develop",
+    "path": "kayla-pdfer"
+  },
+  "kayla-emailer": {
+    "git": "git@github.com:kayla-tech/kayla-packages.git",
+    "branch": "develop",
+    "path": "kayla-emailer"
+  },
+  "kayla-calendarer": {
+    "git": "git@github.com:kayla-tech/kayla-packages.git",
+    "branch": "develop",
+    "path": "kayla-calendarer"
+  },
+  "kayla-tookaner": {
+    "git": "git@github.com:kayla-tech/kayla-packages.git",
+    "branch": "develop",
+    "path": "kayla-tookaner"
+  }
+}

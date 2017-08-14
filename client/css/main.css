@@ -1,0 +1,366 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600:latin);
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.navbar {
+  height:50px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 100;
+  padding-right : vert-padding;
+  padding-left  : vert-padding;
+  padding-top  : horiz-padding;
+  padding-bottom: horiz-padding;
+  background-color: rgba(255,255,255,1);
+
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.mobileNavOpen{
+  bottom:0;
+}
+
+#newSignUpBanner{
+  margin-top: 50px;
+}
+
+.navLeft {
+  flex: 1;
+}
+
+.navRight {
+  text-align: right;
+  padding-right: 1.5rem
+}
+.navLinkFont{
+  font-family: "Open Sans", Arial, sans-serif;
+  color:#5d5d5d!important;
+}
+.navList {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navList li {
+  display: inline-block;
+}
+
+.navRight a {
+  color:#5d5d5d;
+  padding-left: 1.75rem;
+  text-decoration: none;
+  color: brand-mid-grey;
+  transition: all .15s ease-in-out;
+}
+.navRight a:hover {
+  text-decoration: underline;
+  color: #8e8e8e;
+}
+.navRight a:focus {
+  color: #98d2cd;
+}
+.navRight a:active {
+  color: #079e8f;
+}
+
+.hamburger {
+  display: none;
+}
+.navList li.closeButton  {
+  display: none;
+  cursor: pointer;
+}
+
+.icon {
+  fill: currentColor;
+  color: currentColor;
+}
+
+.navList li.navTel{
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .navList {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58,46,58,0);
+    padding: 6.5rem 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out, z-index .3s step-end;
+  }
+
+  .navList li {
+    display: block;
+    opacity: 0;
+    transform: translate3d(0, -1em, 0);
+    transition: all .3s ease-in-out;
+  }
+  .navList li a {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    display: block;
+    line-height: 1.25em;
+    padding-bottom: 1em;
+    color: #fff;
+  }
+
+  .hamburger {
+    display: inline-block;
+    pointer-events: auto;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .mobileRightNavOpen .hamburger {
+    opacity: 0;
+  }
+
+  .closeButton {
+    display: none;
+  }
+
+  .mobileRightNavOpen .navList .closeButton {
+    display: inherit;
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    padding: 0.25rem;
+    font-size: 1rem;
+  }
+
+  .mobileRightNavOpen .navList {
+    visibility: inherit;
+    display: inherit;
+    background-color: rgba(58,46,58,.9);
+    z-index: 100;
+    transition: all .3s ease-in-out, z-index .3s step-start;
+  }
+
+  .mobileRightNavOpen .navList li {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .navList li.navTel{
+    display:block;
+  }
+  .navList li.navCall{
+    display:none;
+  }
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.content-editable {
+  box-sizing: border-box;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.content-editable p,
+.content-editable div {
+  margin-bottom: 10px;
+}
+.content-editable li p,
+.content-editable li div {
+  margin-bottom: 0;
+}
+
+a:not([type=button]) {
+  color: #5d5d5d;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#newSignUp .banner{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-Family: 'Open Sans, Arial, sans-serif';
+  font-Size: '1em';
+  background-color: #ff7280;
+  border-top: 5px solid #ff4966;
+}
+
+.logoimg{
+  height:50px;
+  padding: 5px;
+}
+
+#newSignUp .bannerAfter {
+  background-color: transparent;
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+#newSignUp .bannerText {
+  font-size: 1.5em;
+  margin: 1em 0em;
+  width: 60%;
+  max-width: 1200px;
+  line-height: 1em;
+  font-family: "Heuristica Bold";
+}
+
+@media (min-width: 640px) {
+  #newSignUp .banner {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #newSignUp .banner {
+    font-size: 16px;
+  }
+}
+
+#newSignUp .stepList {
+  display: flex;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: 1px solid #e3e3e3;
+  padding-right: 1.57143rem;
+  padding-left: 1.57143rem;
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+#newSignUp .stepItem {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  text-align: center;
+}
+
+#newSignUp .active {
+  color: #6dbfb6;
+  font-weight: 600;
+}
+
+#newSignUp .active span {
+  border-color: #6dbfb6;
+}
+
+#newSignUp .stepItemNum {
+  width: 32px;
+  border-radius: 100%;
+  margin-bottom: 7px;
+  background-color: #fff;
+  border: 4px solid #e3e3e3;
+  z-index: 1;
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #5d5d5d;
+}
+
+#newSignUp .stepItem p {
+  line-height: 1.2;
+  margin-bottom: 0px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size:14px;
+  color:#5d5d5d;
+
+}
+
+#newSignUp .active p {
+  font-weight: 600;
+}
+
+#newSignUp .stepItem::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: #e3e3e3;
+  width: 100%;
+  height: 5px;
+  top: 11px;
+  left: 50%;
+  z-index: 0;
+}
+
+#newSignUp .last::after {
+  width: 0%;
+}
+
+@media (max-width: 660px) {
+  #newSignUp .stepList {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #newSignUp .stepItem {
+    width: 100%;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: left;
+  }
+  #newSignUp .stepItem::after {
+    display: none;
+  }
+  #newSignUp .stepItemNum {
+    margin-right: 1em;
+    text-align: center;
+    flex: 0 0 auto;
+    font-size:14px;
+  }
+}

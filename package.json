@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "VELOCITY=0 MONGO_URL=mongodb://localhost:27017/kayla MONGO_OPLOG_URL=mongodb://oplogger:oplogger@localhost:27017/local?authSource=admin meteor --settings settings.json",
+    "start:local": "VELOCITY=0 meteor --settings settings.json"
+  }
+}

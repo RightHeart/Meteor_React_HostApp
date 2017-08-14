@@ -1,0 +1,44 @@
+{
+  "controlHostname": "http://localhost:4000/",
+
+  "mailJetPublicKey": "a9dc7226d65bab56f8e15faea4e9ddfa",
+  "mailJetPrivateKey": "ea9ad6cf87d7f0c8e5de22ab30701e2f",
+
+  "stripeAPIKey": "sk_test_PuNtCTRspGM2s8zrVNsmxJ05",
+
+  "intercomKey": "fPWh842BipcQkS4WVn-j197VG8TeASb9YEGhGgfU",
+
+  "tookanAPIKey": "9ff0eba68fb665b6666c250f3252ea1dc6a75897158f0d3ce832b6d2206d3795",
+
+  "slack": {
+    "webHook": "https://hooks.slack.com/services/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",
+    "newBooking": false,
+    "bookingCanceled": false
+  },
+
+  "housekeepingCalendarId": "kayla.com.au_r0udrh81vdqsigs537e5of2f70@group.calendar.google.com",
+
+  "googleServiceAccountKey": {
+    "private_key_id": "4ca75bfb74f7e26a47f26e7c03ab5947acf35ca1",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCTlu77hex8yhUj\nXxAzOE4/ly0HC8cPj8dwdZtL2XpzXe8024wy0HhQLfAUuka0mSt/rZ+qZCU3m1ss\nwuT0HOaSa0Q+Or/EQEo8WGlEkpzUcodag0+9Xwd3hryEFhI3xlsrHv430OtA+pch\nXK4MERMY+9HoE0iBRUbY/ZINKIA5+F7HK1haBCYIiVMmRXWiYCHjT2kIiC7PIQcP\nfMqGc99NhaAexW/1nx3ooaGhMhP8rI20oG/5y+BqYXMAmXY9id7XSOPKT6nh9K1b\nCTCkb6Jw/1a5zHIuQVjBoI/yCYVQ+jci1EArqQDBrrVTEbfn3Vp+EaOok/AwcewS\n0/5yPlw3AgMBAAECggEAHQRexhrljP9aOpMVJ0zZrYz2cF0zbO7SwlyNBNOkTIxa\nXGUR4me0T+dIPXsGLbmzoK2tJ5365zznJxzGUOxhtMXcK/P3Agm1zrl/MNk2dlpy\nHCyW/99wI2LdK4b/W/HmuMqmJqkvp53dGtUS7xJoU9Amy98GsUvCiyUHkwi0dTEA\nD0uEZa9/BvMIigDtKgOK4SGFN3JaVTqSBLw2bdbYHhhZV3uD1+ArTiwmE0EETmSg\neu35CSdUSlXnElkqupGWezssLIw0n8SnC8Z0vRM7xRWk4jdwp2WqkFR9FV1bYN1y\nbVaUqu8fncIlZ9m7QkYqgRWse5wTK4dHzhoO/w+puQKBgQDULb6MiaD6nChROqmg\nMQRQX6ejCHzIH60ctkGl5G4GnTzrW8xxugi1z6eVJEKHjnKD3jltduY0gc4uc0tz\nH9aqgPRsAQAZOVO7j4be+BM46Wy9e1VZv/EM2PR1Qww0EnVL032/Hr2uUtOtF+NB\nuFTWqb9veLv7qJQVDvKfDYB0jQKBgQCyEkBHJqMC7GM+LfBeeVn5CdEDO/SOpfpH\nOcZ5fQXoKsLn58VovNlRlIwN5AJpfo9BTE9ybPSfk7wbwgKNPnndPT5Tq/peDiYk\nyavVRM8nQ2WoXcpstue7TyaVJzjoI0OB+UTwzE/7iE+xtLEco+RekmAevl2xBuTd\n15jfQxJ80wKBgCUyM8JtajQk5gh/cTctAKWab0fsd/uZWf67kLylVAiCzigweqHB\nTD+bPLSvm54qAbdOYODoxCiWTO/ltGdlQHu5iZ/ZeQvy+dPasHksIiqK+U4qbecC\n+B4ZdpmL/HqwdbGqTNQRbo095e/lTSi7SNws++ttzf6rKfKbITty4X8NAoGAevfh\njYDf5x/otMKyj/sLJ9AglzQrAOsbd14tci3lC1ukNtM13ssy44RKZzlCdSlhsf0J\njAIzt5MkvqJucq1nKGGnjc5gWd05eAQQdnlK+FkxdWA3bnWsdwwEn9FzGdNoRfQm\nKIde4FtUdWpLOHTxOmGooPJi7uHM4GmG9v5xYOMCgYA2xkjGgA4zO/0dUHpSCGW5\ndbDtSPGeuwsPkqWDesGNRBjeBJZVexWxrk+HszSSt4/AoQ691RD/iSuXFivOGHO9\nJp7C3A7wzLNNE/QzVoIW+Zv+4d7yBerzT/yZ24btd/f8K5bSY3E65Ui4UxTaWsRP\n0QIt9eTHzmsLRa7j/eFLVg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "account-1@radiant-precept-97206.iam.gserviceaccount.com",
+    "client_id": "107407426752967692228",
+    "type": "service_account"
+  },
+
+  "public": {
+    "isTest": false,
+    "version": "development",
+    "surchargeThreshold": 29,
+    "stripePublishableKey": "pk_test_iPVbw8V6zuw0G8SbzhVqPZqH",
+    "intercomAppID": "nnltikrh",
+    "googleAPIKey": "AIzaSyCziKhse-6DiSyj_Tmv482ZF_HljWVropg",
+    "ga": {
+      "account": "UA-XXXXXX-Y",
+      "cookieDomain": "kayla.com.au"
+    },
+    "velocity:html-reporter": {
+      "position": "bottom right"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+react
+accounts-password
+http
+es5-shim
+
+kadira:react-layout
+kadira:flow-router
+meteorhacks:npm
+meteorhacks:async
+cosmos:browserify
+
+kayla-core
+kayla-data
+kayla-pdfer
+kayla-emailer
+kayla-calendarer
+kayla-tookaner
+
+kayla:stripe
+meteorhacks:subs-manager
+risul:moment-timezone
+kadira:dochead
+meteorhacks:picker
+tomwasd:history-polyfill
+datariot:ganalytics
+
+jabbslad:basic-auth
+jparker:crypto-sha256
+jparker:crypto-hmac
+
+msavin:mongol
+anti:fake
+sanjo:jasmine
+velocity:html-reporter
+velocity:helpers
+
+npm-container
+fortawesome:fontawesome
